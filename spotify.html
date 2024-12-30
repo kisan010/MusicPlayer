@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify</title>
+    <link href="spotify.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <img src="./Public/spotify image.png" id="anime">
+            <h1 id="title">SPOTIFY</h1>
+                
+            <div id="searchbar">
+                <input type="text" name="music" id="search" placeholder="search music">
+                <button type="button" onclick="filteraudio()">search</button>
+            </div>
+        </nav>
+        <div class="music player" >
+            <ul class="Audiolibrary">
+                <li class="songs">
+                    <div class="image"><img src="Public/download.jfif" ></div>
+                    <div class="Info">
+                        <h3>Wajah tum Ho</h3>
+                        <p><em>Artist-</em>Armaanmalik</p>
+                        <audio src="Public/03 - Wajah Tum Ho_64(wapking.fm).mp3" class="song">
+                        </audio>
+                        <input type="range" value="0" class="audiorange">
+
+                        <div class="control">
+                            <button class="prev">prev</button>
+                            <button class="play">play</button>
+                            <button class="next">next</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="songs">
+                    <div class="image">
+                        <img src="Public/rahul jain.jfif" >
+                    </div>
+                    <div class="Info">
+                        <h3>Aanewale kal</h3>
+                        <p><em>Artist-</em>RahulJane</p>
+                        <audio src="Public/Aanewale Kal 320 Kbps.mp3" class="song"></audio>
+                        <input type="range" value="0" class="audiorange">
+                        <div class="control">
+                            <button class="prev">prev</button>
+                            <button class="play">play</button>
+                            <button class="next">next</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="songs">
+                    <div class="image">
+                        <img src="Public/arijit singh.jfif" >
+                    </div>
+                    <div class="Info">
+                        <h3>Phir bhi tum ko chahunga</h3>
+                        <p><em>Artist-</em>Arijit singh</p>
+                        <audio src="Public/Phir Bhi Tumko Chahunga.mp3" class="song"></audio>
+                        <input type="range" value="0" class="audiorange">
+                        <div class="control">
+                            <button class="prev">prev</button>
+                            <button class="play">play</button>
+                            <button class="next">next</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="songs">
+                    <div class="image">
+                        <img src="Public/justin biber.jfif" >
+                    </div>
+                    <div class="Info">
+                        <h3>Sorry</h3>
+                        <p><em>Artist-</em>Justin Biber</p>
+                        <audio src="Public/Sorry (Justin Bieber) Cover By Armaan Malik 190Kbps.mp3" class="song"></audio>
+                        <input type="range" value="0" class="audiorange">
+                        <div class="control">
+                            <button class="prev">prev</button>
+                            <button class="play">play</button>
+                            <button class="next">next</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="songs">
+                    <div class="image">
+                        <img src="Public/evansense.jfif" >
+                    </div>
+                    <div class="Info">
+                        <h3>Bring me to life</h3>
+                        <p><em>Artist-</em>Evanescence</p>
+                        <audio src="Public/Evanescence_-_Bring_Me_To_Life.mp3" class="song"></audio>
+                        <input type="range" value="0" class="audiorange">
+                        <div class="control">
+                            <button class="prev">prev</button>
+                            <button class="play">play</button>
+                            <button class="next">next</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="spotify.js"></script>
+
+</body>
+
+</html>
